@@ -34,7 +34,7 @@ void insertion_sort_list(listint_t **head)
 	listint_t *actual, *temp;
 	int swapped;
 
-	if (*head == NULL)
+	if (head == NULL)
 		return;
 
 	actual = *head;
